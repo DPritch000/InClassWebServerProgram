@@ -6,6 +6,6 @@ Repository for In class programming in Web and Server Programming
         
     I look forward to learning what this class has to offer as it I can see myself making a variety of websites for all my different hobbies and interests. It would also be nice to find employment possibly creating or maintaing webpages for someone. I hope to gain the skills to make a webpage go live on a selected domain as I feel I may have a decent handle on creating a webpage. The AI elements of this class also seem like they'll be useful for future endeavors.
 
-    ![Deven With Fish on Campus](Untitled design,jpg)
+![Deven With Fish on Campus](./Untitled%20design.jpg)
 
 ### This is me with a fish I caught on campus over the summer. Pretty gross!!
