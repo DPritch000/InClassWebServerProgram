@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#6b8bff" stop-opacity="0.9" />
+      <stop offset="1" stop-color="#ff6b6b" stop-opacity="0.9" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="none"/>
+  <defs>
+    <filter id="goo" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="18" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -10" result="goo"/>
+      <feBlend in="SourceGraphic" in2="goo"/>
+    </filter>
+  </defs>
+  <g filter="url(#goo)">
+    <path d="M720 120c-40 0-72 32-112 48-36 14-84 18-120 6-48-16-86-52-140-60C284 96 220 138 160 190c-28 28-56 64-64 102-10 46 4 94 38 126 44 40 106 56 170 36 44-14 84-44 124-70 40-26 88-52 138-46 46 6 88 36 130 60 26 14 56 22 84 12 40-14 52-76 30-116-26-48-94-96-126-116-14-8-30-12-48-12z" fill="#6b8bff" opacity="0.9"/>
+    <path d="M620 420c-36-8-76 6-106 26-32 20-66 42-106 50-38 8-78 4-116-6-32-8-60-22-86-40-18-12-40-30-46-52-8-32 8-64 34-84 22-18 52-26 80-36 34-12 70-28 106-28 36 0 70 18 104 30 40 14 84 20 124 38 30 14 58 36 74 66 16 30 10 66-20 78z" fill="#ff6b6b" opacity="0.85"/>
+    <ellipse cx="180" cy="380" rx="120" ry="80" fill="#9cff3b" opacity="0.7"/>
+  </g>
+</svg>
