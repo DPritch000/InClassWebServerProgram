@@ -1,4 +1,24 @@
-# InClassWebServerProgram
+# Human vs Zombies — Demo Website
+
+This workspace contains a simple 5-page static demo site for a Human vs Zombies game. It's intended as a starting point for a class project.
+
+Files added:
+- [index.html](index.html) — Home page
+- [rules.html](rules.html) — Rules page
+- [howto.html](howto.html) — How To Play page
+- [teams.html](teams.html) — Teams & Roles page
+- [contact.html](contact.html) — Contact form demo
+- [css/styles.css](css/styles.css) — Shared stylesheet
+- [js/main.js](js/main.js) — Small client-side script
+
+To view the site locally, open `index.html` in a browser or serve the folder with a static server (for example `npx http-server` or `python -m http.server`).
+
+If you'd like, I can:
+- Add images and assets
+- Implement a backend endpoint for the contact form
+- Improve visual design and add animations
+
+Let me know which next step you'd like.
 Repository for In class programming in Web and Server Programming
  
 ## A Little About me
