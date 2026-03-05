@@ -4,7 +4,14 @@ import HelloWorld from './components/HelloWorld.vue'
 import NavBar from './components/NavBar.vue';
 </script>
 
-<template/>
+<template>
   <NavBar />
+  <nav>
+      <RouterLink to="/">Home</RouterLink>
+    <RouterLink to="/about">About</RouterLink>
+  </nav>
 
+  <div class = "container">
   <RouterView />
+ </div>
+ </template>
