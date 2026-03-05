@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"
+>
+    <style>
+        #map {
+            height: 500px;
+            width: 100%;
+            margin: 5rem;
+        }
+
+        h1{
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1 class = "title">Creative</h1>
+    <p>
+        A page to demonstrate Google Maps integration.
+    </p>
+    <input type="button" value="Click Dis">
+    <div id="map" style="height: 400px; width: 100%;"></div>
+    <script>
+        function initMap() {
+            var location = { lat: -34.397, lng: 150.644 };
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 8,
+                center: location
+            });
+            var marker = new google.maps.Marker({
+                position: location,
+                map: map
+            });
+        }
+        
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeWRHyGgG04q50Dg7NcQ5sVCEzJZkyI-Y&callback=initMap">
+    </script>
+</body>
+</html>
