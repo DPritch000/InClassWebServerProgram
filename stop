@@ -1,0 +1,95 @@
+[33mcommit c7b08b67534c8ffb217c78ba926589699385f668[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Deven Pritchard <pritchad1@newpaltz.edu>
+Date:   Mon Mar 9 14:26:39 2026 -0400
+
+    add debugger
+
+[33mcommit 98bda99e8ceeba3bf342858fdeadce6169876cb6[m
+Author: Deven Pritchard <pritchad1@newpaltz.edu>
+Date:   Thu Mar 5 15:38:40 2026 -0500
+
+    cleanup
+
+[33mcommit 17021d86a5ae896cda7d9972ff1dedd73a2966ce[m
+Author: Deven Pritchard <pritchad1@newpaltz.edu>
+Date:   Thu Mar 5 15:15:19 2026 -0500
+
+    Attempting to add NavBar to Client
+
+[33mcommit 3c7df32b407d86778ebff6b86affe96299c149bf[m
+Author: Deven Pritchard <pritchad1@newpaltz.edu>
+Date:   Thu Mar 5 14:24:51 2026 -0500
+
+    Added Vue setup
+
+[33mcommit 2514671498fd991823f6d9587979cd7373dc813f[m
+Author: Deven Pritchard <pritchad1@newpaltz.edu>
+Date:   Thu Feb 5 15:44:51 2026 -0500
+
+    Theme Update
+
+[33mcommit 41ce61670f475fb2c38068b972469c4e611d40ac[m
+Author: Deven Pritchard <pritchad1@newpaltz.edu>
+Date:   Thu Feb 5 15:14:42 2026 -0500
+
+    repath file
+
+[33mcommit 38e1df7bafea6f1add5a2b30e3f12f27738e417c[m
+Author: Deven Pritchard <pritchad1@newpaltz.edu>
+Date:   Thu Feb 5 15:12:42 2026 -0500
+
+    file path change
+
+[33mcommit 2083ce3cfdc3b54e1c94603c1807beffb0748369[m
+Author: Deven Pritchard <pritchad1@newpaltz.edu>
+Date:   Thu Feb 5 15:08:01 2026 -0500
+
+    rename
+
+[33mcommit cd0bc50b6bb62456bc36cbf0acd9ce94e6b271e6[m
+Author: Deven Pritchard <pritchad1@newpaltz.edu>
+Date:   Thu Feb 5 14:42:20 2026 -0500
+
+    Ai generated Zombie vs Human site
+
+[33mcommit 026f15ab556952bd197c1bfe8402ae9cf92c9249[m
+Author: Deven Pritchard <pritchad1@newpaltz.edu>
+Date:   Mon Feb 2 15:07:36 2026 -0500
+
+    Added .gitignore and LICENSE
+
+[33mcommit 9b9e521fb5329e9f1a9fb7c78cac3c7300ee6cd1[m
+Author: Deven Pritchard <pritchad1@newpaltz.edu>
+Date:   Sat Jan 31 10:56:29 2026 -0500
+
+    Hopefully I corrected the MD syntax
+
+[33mcommit a2da34d1a090d17cba211d51701554ab3cc258a0[m
+Author: Deven Pritchard <pritchad1@newpaltz.edu>
+Date:   Thu Jan 29 20:11:48 2026 -0500
+
+    No this time  Im fixing the lines
+
+[33mcommit e6007efebf840defad7bdcac32633eda8f5ec3d1[m
+Author: Deven Pritchard <pritchad1@newpaltz.edu>
+Date:   Thu Jan 29 20:09:18 2026 -0500
+
+    Made the Paragraphs look better
+
+[33mcommit 04b72c173fd5843b403ce5d2910c3ca046749586[m
+Author: Deven Pritchard <pritchad1@newpaltz.edu>
+Date:   Thu Jan 29 20:05:56 2026 -0500
+
+    Photo fix
+
+[33mcommit 34c7fc98bc55b3a43acbfad5afeae21be1f1b710[m
+Author: Deven Pritchard <pritchad1@newpaltz.edu>
+Date:   Thu Jan 29 20:02:45 2026 -0500
+
+    Assignment 1 Update README
+
+[33mcommit 1a503554c2f265b5ea620a92cf7d2f5ef590b20f[m
+Author: Deven Pritchard <pritchad1@newpaltz.edu>
+Date:   Thu Jan 29 19:42:49 2026 -0500
+
+    Initial commit

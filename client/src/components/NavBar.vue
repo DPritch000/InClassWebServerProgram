@@ -1,5 +1,9 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router'
+import { ref } from 'vue';
+
+const isActive = ref(false);
+
 </script>
 
 <template>
@@ -13,18 +17,21 @@ import { RouterLink } from 'vue-router'
 
     </a>
 
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-      <span aria-hidden="true"></span>
+    <a role="button" class="navbar-burger" aria-label="menu" :aria-expanded="isActive" data-target="navbarBasicExample" @click="isActive = !isActive" :class="{ 'is-active': isActive }">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
     </a>
   </div>
 
-  <div id="navbarBasicExample" class="navbar-menu">
+  <div id="navbarBasicExample" class="navbar-menu" :class="{ 'is-active': isActive }">
     <div class="navbar-start">
       <RouterLink to="/" active-class="is-active" class="navbar-item">
         Home
+      </RouterLink>
+
+      <RouterLink to="/products" active-class="is-active" class="navbar-item">
+        Products
       </RouterLink>
 
       <RouterLink to="/documentation" active-class="is-active" class="navbar-item">
@@ -40,7 +47,7 @@ import { RouterLink } from 'vue-router'
           <RouterLink to="/about" active-class="is-active" class="navbar-item">
             About
           </RouterLink>
-          <RouterLink to="/jobs" active-class="is-active" class="navbar-item is-selected">
+          <RouterLink to="/jobs" active-class="is-active" class="navbar-item">
             Jobs
           </RouterLink>
           <RouterLink to="/contact" active-class="is-active" class="navbar-item">
