@@ -1,16 +1,22 @@
 import express from 'express';
+import userConstroller from "./controllers/users"
 
 const PORT = 3000;
 const app = express();
+const SERVER = "localhost";
 
 app.get('/', (req, res) => {
   res.send('Hello World!');
 })
+.use("/users", userConstroller)
 
 .get("/suny", (req, res) => {
   res.send("The best accident of my life");
 });
 
 app.listen(PORT, () => {
-    console.log(`Server is running on port http://localhost:${PORT}`)
+    console.log(`Server is running on port http://${SERVER}:${PORT}`)
 });
+
+console.log("Listening for requests...");
+;

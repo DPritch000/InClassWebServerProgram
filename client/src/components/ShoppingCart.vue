@@ -32,7 +32,8 @@ const cart = useCartStore()
 
 <style scoped>
 .cart {
-    padding: .5rem
+    padding: .5rem;
+    background-color: white;
 }
 
 .cart-item {

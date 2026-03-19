@@ -1,8 +1,19 @@
 <script setup lang="ts">
+
 import { ref } from 'vue';
 import { RouterLink } from 'vue-router';
+import { useCartStore } from '../stores/cart';
 
 const isActive = ref(false);
+
+const cartStore = useCartStore()
+
+function toggleCart(){
+    // toggle the cart sidebar open state in the Pinia store
+    cartStore.isCartSidebarOpen = !cartStore.isCartSidebarOpen
+}
+
+
 </script>
 
 <template>
@@ -54,8 +65,15 @@ const isActive = ref(false);
                     </div>
                 </div>
 
-                <div class="navbar-end">
-                    <div class="navbar-item">
+                                        <div class="navbar-end">
+                                        <div class="navbar-item">
+                                            <a role="button" @click.prevent="toggleCart">
+                                                <span class="tag is-danger is-rounded"></span>
+
+                                                    <span class="icon">
+                                                        <i class="fas fa-shopping-cart"></i>
+                                                     </span>
+                                            </a>
                         <div class="buttons">
                             <RouterLink to="/sign-up" active-class="is-active" class="button is-primary">
                                 <strong>Sign up</strong>
