@@ -1,14 +1,14 @@
 import express from 'express';
-import userConstroller from "./controllers/users"
+import userController from "./users"
 
 const PORT = 3000;
 const app = express();
 const SERVER = "localhost";
 
-app.get('/', (req, res) => {
+app.get', (req, res) => {
   res.send('Hello World!');
 })
-.use("/users", userConstroller)
+.use("/users", userController)
 
 .get("/suny", (req, res) => {
   res.send("The best accident of my life");
